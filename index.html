@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slice & Dice - Ghost Host</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <section class="nav">
+          <div class="logo-nav">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li><a class="current" href="#">Home</a></li>
+              <li><a href="#">Domain</a></li>
+              <li><a href="#">Hosting</a></li>
+              <li><a href="#">Clients</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="greeting">
+          <div class="home-wrapper">
+            <h1>Hello!</h1>
+            <p>We love our work...</p>
+            <p>And We're taking it seriously...</p>
+          </div>
+        </section>
+      </div>
+      <div class="member">
+        <div class="login-background">
+          <div class="login">
+            <a href="#">LOGIN</a>
+          </div>
+        </div>
+        <div class="register-background">
+          <div class="register">
+            <a href="#">REGISTER</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-us" id="clients">
+        <div class="content">
+          <article class="about-text">
+            <h1><span>About</span> Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              feugiat eget diam sit amet molestie. Curabitur. ut ipsum bibendum
+              tortor lacinia fermentum nec joeıa. Mauris at augue libero. Fusce
+              posuere, sapien nec poır. Uaee augsuada sed mauris in tincidunt...
+            </p>
+          </article>
+
+          <div class="profiles">
+            <ul class="profile">
+              <li><img src="images/team-1.png" alt="Jonny" /></li>
+              <li class="name">Jonny Doe</li>
+              <li class="prof">Designer</li>
+              <li class="horizontally">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="horizontally">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="horizontally">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </li>
+            </ul>
+
+            <ul class="profile">
+              <li><img src="images/team-2.png" alt="John" /></li>
+              <li class="name">John Doe</li>
+              <li class="prof">Designer</li>
+              <li class="horizontally">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="horizontally">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="horizontally">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </li>
+            </ul>
+
+            <ul class="profile">
+              <li><img src="images/team-3.png" alt="Johnathan" /></li>
+              <li class="name">Johnathan Doe</li>
+              <li class="prof">Designer</li>
+              <li class="horizontally">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="horizontally">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="horizontally">
+                <a href="#"><i class="fa fa-link"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--Slider-->
+      <section class="slider">
+        <div class="slide" data-slide="1">
+          <p>
+            “Suspendisse tempor turpis odio, sit amet cursus leo consequat non.
+            Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
+          </p>
+        </div>
+        <div class="info">
+          <p>John Doe</p>
+
+          <div class="icons">
+            <ul>
+              <li
+                class="icon active"
+                onclick="currentSlide(1)"
+                data-id="1"
+              ></li>
+              <li class="icon" onclick="currentSlide(2)" data-id="2"></li>
+              <li class="icon" onclick="currentSlide(3)" data-id="3"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--Feature-->
+      <section class="features" id="service">
+        <div class="feature-blocks">
+          <ul class="feature-block">
+            <li class="feature-item">
+              <div class="icon-flash icon-yellow">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <h4>Fast Servers</h4>
+              <p>
+                Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+              </p>
+            </li>
+          </ul>
+
+          <ul class="feature-block">
+            <li class="feature-item">
+              <div class="icon-flash icon-blue">
+                <i class="fas fa-cloud"></i>
+              </div>
+              <h4>Cloud Servers</h4>
+              <p>
+                Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+              </p>
+            </li>
+          </ul>
+
+          <ul class="feature-block">
+            <li class="feature-item">
+              <div class="icon-flash icon-grey">
+                <i class="fas fa-arrows-alt"></i>
+              </div>
+              <h4>Domain Transfer</h4>
+              <p>
+                Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+              </p>
+            </li>
+          </ul>
+
+          <ul class="feature-block">
+            <li class="feature-item">
+              <div class="icon-flash icon-red">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h4>Live Support</h4>
+              <p>
+                Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <section class="footer-content">
+        <div class="footer-block">
+          <p>
+            Lorem ipsum dolor sit amet, consecteteeseurı adipiscing elit. Donec
+            mollis commodoeesene que, non commodo risus volutpat vel.
+          </p>
+          <p>Design by <b>Mert Can Eyriyer.</b></p>
+        </div>
+        <div class="footer-block footer-map">
+          <div class="footer-nav">
+            <ul>
+              <li><i class="fas fa-angle-right"></i><a href="#">Support</a></li>
+              <li><i class="fas fa-angle-right"></i><a href="#">Account</a></li>
+              <li>
+                <i class="fas fa-angle-right"></i
+                ><a href="#">Product Catalog</a>
+              </li>
+              <li>
+                <i class="fas fa-angle-right"></i><a href="#">Shortcodes</a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <i class="fas fa-angle-right"></i><a href="#">Site Map</a>
+              </li>
+              <li>
+                <i class="fas fa-angle-right"></i><a href="#">Whois Search</a>
+              </li>
+              <li>
+                <i class="fas fa-angle-right"></i><a href="#">Web Mail</a>
+              </li>
+              <li>
+                <i class="fas fa-angle-right"></i><a href="#">Find Domain</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-block footer-contact">
+          <ul>
+            <li>
+              <i class="fas fa-phone-alt contact-icon"></i
+              ><a href="#">0000-0000-0000</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope contact-icon"></i
+              ><a href="#">test@gmail.com</a>
+            </li>
+            <li>Lorem Ipsum Street, Lorem Avenue,</li>
+            <li>Lorem Ipsum</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
