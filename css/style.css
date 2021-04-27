@@ -368,7 +368,7 @@ ul.profile {
 }
 
 .feature-block {
-  width: 700px;
+  max-width: 700px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -533,6 +533,28 @@ footer {
   .feature-item {
     flex-wrap: wrap;
   }
+
+  .features {
+min-height: 300px ;
+
+
+  }
+  .feature-blocks{
+   flex-wrap: wrap;
+    right: 0px;
+    align-items: center;
+    padding: 0px 30px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+  .feature-block{
+   
+    max-width: 40%;
+  }
+
+
 }
 
 
@@ -558,6 +580,27 @@ align-items: center;
 }
 .feature-blocks{
   flex-wrap: wrap;
+  right: 0px;
+  align-items: center;
+  padding: 30px 0px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  
+}
+.feature-block{
+  display: inline-flex;
+  padding: 0;;
+
+}
+
+.icon-flash{
+      min-width: 25vh;
+    min-height: 25vh;
+    font-size: 14vh;
+}
+.feature-item>p{
+  padding: 10px 25%;
 }
 .footer-content{
   flex-wrap: wrap;
