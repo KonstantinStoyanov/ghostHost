@@ -584,6 +584,16 @@ align-items: center;
 .current{
   border-bottom: none;
 }
+
+
+.profiles{
+  align-items: center;
+  flex-wrap: wrap;
+}
+ul.profile{
+  padding: 0 10px;
+}
+
 .feature-blocks{
   flex-wrap: wrap;
   right: 0px;
